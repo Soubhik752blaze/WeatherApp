@@ -128,7 +128,7 @@ h1 {
 
 .user-info-container {
     display: none;
-    margin-top: 2rem;
+    margin-top: 1.8rem;
 }
 
 .user-info-container.active {
@@ -162,6 +162,12 @@ h1 {
     object-fit: contain;
 }
 
+.temp{
+    display: flex;
+    align-items: end;
+    gap: 5px;
+}
+
 .user-info-container p[data-temp] {
     font-size: 1.5rem;
     font-weight: 700;
@@ -182,7 +188,7 @@ h1 {
     max-width: 150px;
     background-color: rgba(219, 226, 239, 0.5);
     border-radius: 5px;
-    padding: 1.5rem;
+    padding: 1.3rem;
     display: flex;
     flex-direction: column;
     gap: 5px 0;
@@ -263,7 +269,7 @@ h1 {
     .parameter {
         width: 40%;
         max-width: 300px;
-        padding: 6%;
+        padding: 7%;
         background-color: rgba(219, 226, 239, 0.5);
         /* background-color: red; */
         border-radius: 50%;

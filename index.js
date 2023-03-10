@@ -186,7 +186,8 @@ async function fetchSearchWeatherInfo(city) {
     } catch (err) {
         console.log(err);
         console.log(errorTab);
-        //if a inappropriate city name is provided, show 404 city not found 
+        //if a inappropriate city name is provided, show 404 city not found and remove loading screen
+        loadingScreen.classList.remove("active");
         errorTab.classList.add("active");
     }
 }
