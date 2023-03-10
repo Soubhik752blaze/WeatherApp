@@ -262,7 +262,7 @@ h1 {
     .parameter {
         width: 40%;
         max-width: 300px;
-        padding: 7%;
+        padding: 6%;
         background-color: rgba(219, 226, 239, 0.5);
         /* background-color: red; */
         border-radius: 50%;
@@ -275,7 +275,7 @@ h1 {
     }
 
     .parameter p:first-of-type {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         font-weight: 600;
         text-transform: uppercase;
     }
@@ -286,7 +286,7 @@ h1 {
     }
     
     .parameter p:last-of-type {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         font-weight: 200;
     }
 
