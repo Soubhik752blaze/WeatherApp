@@ -280,7 +280,7 @@ h1 {
     }
 
     .parameter p:first-of-type {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         font-weight: 600;
         text-transform: uppercase;
     }
@@ -291,7 +291,7 @@ h1 {
     }
     
     .parameter p:last-of-type {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         font-weight: 200;
     }
 
